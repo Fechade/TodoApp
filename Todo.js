@@ -5,11 +5,6 @@ class storage {
 }
 
 class Events {
-  static addTask(e, form, btn) {
-    e.preventDefault();
-    form.style.display = "block";
-    btn.style.display = "none";
-  }
 }
 
 class Todo {
